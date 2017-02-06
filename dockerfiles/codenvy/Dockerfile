@@ -15,7 +15,7 @@
 
 FROM alpine:3.4
 
-ENV JAVA_HOME=/usr/lib/jvm/default-jvm/jre \
+ENV JAVA_HOME=/usr/lib/jvm/java-1.8-openjdk \
     PATH=${PATH}:${JAVA_HOME}/bin \
     LANG=C.UTF-8 \
     TERM=xterm \
